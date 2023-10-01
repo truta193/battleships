@@ -2,8 +2,7 @@
 #include <math.h>
 #include <stdio.h>
 #include <windows.h>
-
-typedef enum { false, true } bool;
+#include "stdbool.h"
 enum { VERTICAL, HORIZONTAL };
 
 typedef enum { WHITE, BLACK, RED, GREEN } color_t;
